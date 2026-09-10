@@ -13,18 +13,18 @@ DatasetLens helps identify file formats, dataset composition, supported/unsuppor
 ---
 
 ## Implemented
--✅ Text Inspector
--✅ Single file inspection
--✅ Directory inspection
--✅ Metadata generation
--✅ Format detection
--✅ Supported format validation
--✅ Unsupported file detection
+- ✅ Text Inspector
+- ✅ Single file inspection
+- ✅ Directory inspection
+- ✅ Metadata generation
+- ✅ Format detection
+- ✅ Supported format validation
+- ✅ Unsupported file detection
 ## Planned
--🔜 Encoding detection
--🔜 Language detection
--🔜 Duplicate detection
--🔜 Reports
+- 🔜 Encoding detection
+- 🔜 Language detection
+- 🔜 Duplicate detection
+- 🔜 Reports
 ## Future modalities
 - Images
 - videos
