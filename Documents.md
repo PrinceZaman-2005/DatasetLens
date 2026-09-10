@@ -6,9 +6,6 @@ Open-source dataset inspection and health analysis toolkit for ML data.
 # Features
 - Text inspection and analysis
 - Image inspection and analysis
--
--
--
 
 ---
 
@@ -23,6 +20,4 @@ English, Spanish, French, etc. [Non-supported languages will be detected as "Unk
 Detects special characters, emojis, and other symbols in the text data. [Non-supported symbols will be detected as "Unknown symbols"]
 
 ### Text Analysis:
-- 
--
--
+- word count
