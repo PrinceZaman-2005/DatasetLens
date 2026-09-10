@@ -1,21 +1,10 @@
 from pathlib import Path
 
 from .metadata import Metadata
+from .format_check import FormatCheck
 
 
 class TextInspector:
-
-    SUPPORTED_FORMATS = {
-        ".txt",
-        ".csv",
-        ".json",
-        ".jsonl",
-        ".xml",
-        ".md",
-        ".tsv",
-        ".yaml",
-        ".yml"
-    }
 
     def __init__(self, address: str):
         self.address = Path(address)
@@ -25,25 +14,17 @@ class TextInspector:
                 f"Path does not exist: {self.address}"
             )
 
-        self.path_type = (
-            "file"
-            if self.address.is_file()
-            else "directory"
+        self.path_type = Metadata.get_path_type(
+            self.address
         )
 
-        if self.path_type == "file":
-            self.files = [self.address]
-
-        else:
-            self.files = [
-                file
-                for file in self.address.rglob("*")
-                if file.is_file()
-            ]
+        self.files = Metadata.get_files(
+            self.address
+        )
 
         self.df = Metadata.build(
             self.files,
-            self.SUPPORTED_FORMATS
+            FormatCheck.SUPPORTED_FORMATS
         )
 
     def files_count(self):
@@ -54,53 +35,21 @@ class TextInspector:
         return total
 
     def check_formats(self):
-        formats = (
-            self.df["format"]
-            .value_counts()
-            .to_dict()
+        return FormatCheck.check(
+            self.df
         )
-
-        print("\nFormat Distribution")
-        print("-" * 20)
-
-        for ext, count in formats.items():
-            print(f"{ext}: {count}")
-
-        return formats
 
     def supported_files(self):
-        supported = self.df[
-            self.df["supported"]
-        ]
-
-        print(
-            f"\nSupported files: {len(supported)}"
+        return FormatCheck.supported(
+            self.df
         )
-
-        return supported
 
     def unsupported_files(self):
-        unsupported = self.df[
-            ~self.df["supported"]
-        ]
-
-        print(
-            f"\nUnsupported files: {len(unsupported)}"
+        return FormatCheck.unsupported(
+            self.df
         )
 
-        if not unsupported.empty:
-            print("\nUnsupported Formats: ")
-
-            for _, row in unsupported.iterrows():
-                print(f"- {row['name']}")
-
-        return unsupported
-
     def inspect(self):
-        """
-        Quick inspection summary.
-        """
-
         print("\nDatasetLens - Text Inspector")
         print("=" * 30)
 
