@@ -1,5 +1,4 @@
 # DatasetLens
-<<<<<<< HEAD
 Open-source dataset inspection and health analysis toolkit for ML data.
 
 ---
@@ -27,6 +26,3 @@ Detects special characters, emojis, and other symbols in the text data. [Non-sup
 - 
 -
 -
-=======
-Open-source python library with a modular dataset inspection and health analysis toolkit for ML data.
->>>>>>> b4e96c103401e2e73baf51c3810bafea951be8d0
