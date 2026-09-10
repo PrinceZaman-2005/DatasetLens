@@ -1,2 +1,2 @@
 # DatasetLens
-Open-source dataset inspection and health analysis toolkit for ML data.
+Open-source python library with a modular dataset inspection and health analysis toolkit for ML data.
