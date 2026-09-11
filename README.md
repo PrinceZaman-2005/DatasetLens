@@ -1,10 +1,10 @@
-# DatasetLens
-Open-source dataset inspection and health analysis toolkit for ML datasets.
+# DatasetLens🔍
+Open-source dataset inspection and quality analysis toolkit for ML datasets.
 
 ---
 
 ## Introduction
-Inspect your datasets before training models! 🔍
+Inspect your datasets before training models!
 
 DatasetLens helps identify file formats, dataset composition, supported/unsupported files across multiple data modalities.
 Identify broken/corrupt files, duplicate files and so on.
@@ -17,12 +17,12 @@ Identify broken/corrupt files, duplicate files and so on.
 
 > **Star this repo for upcoming features or issue a request instead! 🐱** 
 ---
-# Quick List:
+## Quick List:
 
-## Implemented
+### Implemented
 - Text Inspector ✅
 
-## Future modalities
+### Future modalities
 - Images
 - 3D Voxel
 - Point Clouds
@@ -30,3 +30,5 @@ Identify broken/corrupt files, duplicate files and so on.
 - Audio
 - videos
 - Graph
+
+---
