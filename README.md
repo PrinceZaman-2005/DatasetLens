@@ -1,5 +1,5 @@
 # DatasetLens
-Open-source dataset inspection and health analysis toolkit for ML data.
+Open-source dataset inspection and health analysis toolkit for ML datasets.
 
 ---
 
@@ -11,20 +11,11 @@ DatasetLens helps identify file formats, dataset composition, supported/unsuppor
 *Warning* **🚧 Early Development (v0.1)**
 
 ---
+# Quick List:
 
 ## Implemented
--✅ Text Inspector
--✅ Single file inspection
--✅ Directory inspection
--✅ Metadata generation
--✅ Format detection
--✅ Supported format validation
--✅ Unsupported file detection
-## Planned
--🔜 Encoding detection
--🔜 Language detection
--🔜 Duplicate detection
--🔜 Reports
+- Text Inspector ✅
+
 ## Future modalities
 - Images
 - videos

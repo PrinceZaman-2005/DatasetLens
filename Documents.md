@@ -1,15 +1,14 @@
 # DatasetLens
-Open-source dataset inspection and health analysis toolkit for ML data.
+Open-source dataset inspection and health analysis toolkit for ML datasets.
 
 ---
 
-# Features
-- Text inspection and analysis
-- Image inspection and analysis
+# Current Features:
+1. Text inspection and analysis
 
 ---
 
-## Text Format Inspection
+## Text Format Inspection:
 ### Detect files:
 .txt, .csv, .json, .jsonl, .xml, .md, .tsv, .yaml, yml
 ### Encodings:
@@ -20,4 +19,9 @@ English, Spanish, French, etc. [Non-supported languages will be detected as "Unk
 Detects special characters, emojis, and other symbols in the text data. [Non-supported symbols will be detected as "Unknown symbols"]
 
 ### Text Analysis:
-- Format Distribution
+- Single file inspection
+- Directory inspection
+- Metadata generation
+- Format detection
+- Supported format validation
+- Unsupported file detection
