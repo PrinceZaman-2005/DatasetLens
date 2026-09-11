@@ -11,10 +11,6 @@ Identify broken/corrupt files, duplicate files and so on.
 
 *Warning* **🚧 Early Development (v0.1)**
 
-- Only added Text Inspection
-- Next: Upgrade encoding 
-- Next: Image Inspection
-
 > **Star this repo for upcoming features or issue a request instead! 🐱** 
 ---
 ## Quick List
