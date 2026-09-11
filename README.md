@@ -27,7 +27,8 @@ DatasetLens helps identify file formats, dataset composition, supported/unsuppor
 - 🔜 Reports
 ## Future modalities
 - Images
-- videos
+- 3D voxel
 - TIFF
 - Audio
+- videos
 - Point Clouds
