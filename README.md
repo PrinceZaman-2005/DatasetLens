@@ -17,7 +17,7 @@ Identify broken/corrupt files, duplicate files and so on.
 
 > **Star this repo for upcoming features or issue a request instead! 🐱** 
 ---
-## Quick List:
+## Quick List
 
 ### Implemented
 - Text Inspector ✅
