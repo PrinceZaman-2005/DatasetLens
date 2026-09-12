@@ -14,8 +14,6 @@ Open-source dataset inspection and quality analysis toolkit for ML datasets.
 UTF-8, UTF-16, ASCII, Latin-1, CP1252
 ### Languages:
 English, Spanish, French, etc.
-### Symbols:
-Detects special characters, emojis, and other symbols in the text data.
 
 ### Text Analysis:
 - Single file inspection
