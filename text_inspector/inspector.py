@@ -2,7 +2,8 @@ from pathlib import Path
 
 from .metadata import Metadata
 from .format_check import FormatCheck
-
+from .encoding import EncodingCheck
+from .language import LanguageCheck
 
 class TextInspector:
 
@@ -48,6 +49,14 @@ class TextInspector:
         return FormatCheck.unsupported(
             self.df
         )
+    def detect_encoding(self):
+         return EncodingCheck.check(
+            self.df
+        )
+    def detect_language(self):
+         return LanguageCheck.check(
+            self.df
+        )
 
     def inspect(self):
         print("\nDatasetLens - Text Inspector")
@@ -57,6 +66,8 @@ class TextInspector:
         self.check_formats()
         self.supported_files()
         self.unsupported_files()
+        self.detect_encoding()
+        self.detect_language()
 
         return self.df
 

@@ -13,9 +13,9 @@ Open-source dataset inspection and quality analysis toolkit for ML datasets.
 ### Encodings:
 UTF-8, UTF-16, ASCII, Latin-1, CP1252
 ### Languages:
-English, Spanish, French, etc. [Non-supported languages will be detected as "Unknown Language"]
+English, Spanish, French, etc.
 ### Symbols:
-Detects special characters, emojis, and other symbols in the text data. [Non-supported symbols will be detected as "Unknown symbols"]
+Detects special characters, emojis, and other symbols in the text data.
 
 ### Text Analysis:
 - Single file inspection
@@ -24,6 +24,5 @@ Detects special characters, emojis, and other symbols in the text data. [Non-sup
 - Format detection
 - Supported format validation
 - Unsupported file detection
-- encoding detection
-- Supported/Unsupported encoding
-
+- Encoding detection
+- Language detection
