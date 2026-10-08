@@ -77,7 +77,7 @@
 ### Previous Release
 
 - v0.1.0-alpha (**Deleted**, Due to crashes)
-- v0.2.0-alphs (Stable build, Text only)
+- v0.2.0-alpha (Stable build, Text only)
 
 ### Current Release
 
