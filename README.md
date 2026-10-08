@@ -31,7 +31,7 @@ The goal is simple: **"Know your dataset before you train your model."**
 DatasetLens is actively evolving.
 
 * **v0.1.0-alpha** — Early development build (**Deleted,** due to crashes)
-* **v0.2.0-alpha** — Stable text-only build
+* **v0.2.0-alphs** — Stable text-only build <----- Typo error must not die! 💀
 * **v0.3.0-alpha** — Image inspection added
 
 Current development is focused on stability, inspection quality, and expanding supported modalities.
