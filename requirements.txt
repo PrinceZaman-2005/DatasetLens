@@ -2,4 +2,4 @@ numpy == 2.5.3
 pandas==3.0.5
 charset-normalizer==3.5.1
 langdetect==1.0.9
-Pillow>=10.0.0
+pillow>=10.0.0
